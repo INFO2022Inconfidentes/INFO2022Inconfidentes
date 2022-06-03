@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-purple: #431f5eaa;
+}
+
+body {
+    background-image: url(../img/bgblurred.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'Doctor_Glitch';
+    src: url(../fonts/glitch.otf);
+}
+
+@font-face {
+    font-family: 'Poppins_Bold';
+    src: url(../fonts/poppins.ttf);
+}
+
+.titlebar {
+    background-color: #000;
+    box-shadow: 0 0 35px 50px #000;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.titlebar > h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Doctor_Glitch';
+    font-size: 50px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.titlebar > img {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+}
